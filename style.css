@@ -1,40 +1,49 @@
 :root{
 	--primary: #e5dac1;
 }
+
 body{
 	font-family: 'Open Sans', sans-serif;
 	padding: 0;
 	margin: 0;
 }
+
 header{
 	background: rgb(231,92,73);
     background: linear-gradient(90deg, 
 	rgba(231,92,73,1) 0%, rgba(232,35,126,1) 50%, 
 	rgba(188,47,155,1) 100%);
 }
+
 .container{
 	width: 1024px;
 	margin: auto;
 }
+
 .first_section{
 	text-align: center;
 }
+
 .flex{
 	display: flex;
 	align-items: center;
 }
+
 .logo{
 	flex-basis: 30%;
 
 }
+
 nav{
 	flex-basis: 70%;
 }
+
 nav ul{
 	display: flex;
 	justify-content: flex-end;
 	list-style: none;
 }
+
 header nav a{
 	color: white;
 	text-decoration: none;
@@ -42,14 +51,136 @@ header nav a{
     padding: 13px;
     display: block;
 }
+
 header nav a:hover{
 	color: var(--primary);
 }
+
 header .logo a{
 	color: white;
 	text-decoration: none;
 	font-family: 'Dancing Script', cursive;
 }
+
+
+
+
+
+
+.shape1{
+	width: auto;
+	position: fixed;
+	bottom: 28%;
+	left: 10%;
+	animation-name: shape1;
+	animation-duration: 10s;
+	animation-direction: alternate-reverse;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes shape1{
+
+	from{
+		transform: scale(1) rotate(0deg);
+	}
+	to{
+		transform: scale(1.1) rotate(160deg);
+
+	}
+}
+
+.shape2{
+	width: auto;
+	position: fixed;
+	right: 10%;
+	top: 26%;
+	animation-name: shape2;
+	animation-duration: 10s;
+	animation-direction: alternate-reverse;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes shape2{
+
+	from{
+		transform: scale(1) rotate(0deg);
+	}
+	to{
+		transform: scale(1.5) rotate(160deg);
+
+	}
+}
+
+.shape3 {
+    width: auto;
+    position: fixed;
+    left: 54%;
+    top: 9%;
+	animation-name: shape3;
+	animation-duration: 10s;
+	animation-direction: alternate-reverse;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+}
+
+@keyframes shape3{
+
+	from{
+		transform: scale(1) rotate(0deg);
+	}
+	to{
+		transform: scale(1.1) rotate(160deg);
+
+	}
+}
+
+.star1{
+	width: auto;
+	position: fixed;
+	top: 22%;
+	left: 20%;
+	animation-name: star1;
+	animation-duration: 5s;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes star1{
+	from{
+
+		transform: rotate(0) translate(0,0);
+	}
+	to{
+		transform: rotate(170deg) translate(30px,10px);
+	}
+}
+
+.star2{
+	width: auto;
+	position: fixed;
+	bottom: 15%;
+	right: 16%;
+	animation-name: star2;
+	animation-duration: 5s;
+	animation-direction: alternate-reverse;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+@keyframes star2{
+	from{
+
+		transform: rotate(0) translate(0,0);
+	}
+	to{
+		transform: rotate(170deg) translate(30px,10px);
+	}
+}
+
+
 
 
 
@@ -64,15 +195,20 @@ header .logo a{
     padding: 20px;
 
 }
+
 .first_section{
 	text-align: center;
 }
+
 .banner-section img {
     border-radius: 8px;
-    width: 99%;
+    max-width: 99%;
     object-fit: cover;
-    height: 100%;
+}
+
+.banner{
     box-shadow: 3px 4px 20px 0px #b58995;
+
 }
 
 .banner-section .container{
@@ -83,34 +219,42 @@ header .logo a{
 
 
 
+
 .feature-section{
 	padding-top: 30px;
 	padding-bottom: 30px ;
 }
+
 .feature {
     padding: 18px;
     text-align: center;
     margin: 10px;
     border-radius: 10px;
+    color: white;
 }
+
 .color1{
 
-background-color: #d788aa59;
+background-color: #e75c49b0;
 }
+
 .color2{
 
-background-color: #2d275c1f;
+background-color: #e73d65b3;
 }
+
 .color3{
 	
-background-color: #ed767261;
+background-color: #d2298dc7;
 }
+
 .feature h2{
 	margin: 0;
     font-size: 25px;
     padding-top: 4px;
 
 }
+
 .feature p{
     font-size: 16px;
     margin: 0;
@@ -127,18 +271,22 @@ background-color: #ed767261;
 	flex-basis: 30%;
 	padding: 15px;
 }
+
 .aboutme{
 	flex-basis: 65%;
 
 }
+
 .aboutme h2 {
     margin: 0;
     font-size: 40px;
 }
+
 .aboutme span {
-    color: #ed7672;
+    color: #ee7793;
     text-transform: uppercase;
 }
+
 .aboutme p {
     font-size: 21px;
     margin: 0;
@@ -146,10 +294,12 @@ background-color: #ed767261;
     padding-right: 70px;
     font-weight: 400;
 }
+
 .mypicture{
 	flex-basis: 35%;
 	padding: 15px;
 }
+
 .mypicture img {
     box-shadow: 3px 6px 20px 0px #a99f9f;
     border-radius: 50%;
@@ -165,6 +315,7 @@ background-color: #ed767261;
 	padding-bottom: 100px;
 	background-color:#e7485b73 ;
 }
+
 iframe{
 	border-radius: 15px;
 }
