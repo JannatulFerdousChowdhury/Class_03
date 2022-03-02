@@ -233,19 +233,20 @@ header .logo a{
     color: white;
 }
 
-.color1{
-
-background-color: #e75c49b0;
+.color1 {
+    background-color: #e75c49b0;
+    box-shadow: 11px 10px 13px 0px #0000003d;
 }
 
-.color2{
-
-background-color: #e73d65b3;
+.color2 {
+    background-color: #e73d65b3;
+    box-shadow: 11px 10px 13px 0px #0000003d;
 }
 
 .color3{
 	
-background-color: #d2298dc7;
+    background-color: #d2298dc7;
+    box-shadow: 11px 10px 13px 0px #0000003d;
 }
 
 .feature h2{
