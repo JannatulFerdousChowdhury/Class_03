@@ -224,13 +224,13 @@
     }
     .feature p {
     font-size: 14px;
+    padding: 30px;
     }
     .feature div {
     padding: 13px 52px;
     }
     .aboutme p {
     font-size: 16px;
-    padding-right: 49px;
     }
     .aboutme h2 {
     font-size: 38px;
@@ -256,6 +256,10 @@
     	flex-basis: 100%;
     	max-width: 60%;
     	margin: auto;
+    }
+    .aboutme p {
+    padding-right: 0;
+    padding: 11px 45px;
     }
 
 }
