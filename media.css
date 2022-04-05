@@ -111,7 +111,7 @@
     }
 }
 
-@media(max-width: 768px){
+@media screen and (max-width: 921px){
 	.container{
 		width: 90%;
 	}
@@ -161,10 +161,7 @@
         width: 3%;
     }
 }
-
-
-
-@media(max-width: 320px){
+@media screen and (max-width: 767px){
 	.container{
 		width: 90%;
 	}	
