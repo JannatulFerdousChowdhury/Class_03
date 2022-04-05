@@ -1,0 +1,307 @@
+@media(max-width: 1400px){
+	.container{
+		width: 90%;
+	}
+	footer {
+    padding: 100px 85px;
+    }
+
+    .star1, .star2{
+        width: 1.2%;
+    }
+    .shape1, .shape2, .shape3{
+        width: 3%;
+    }
+
+}
+@media(max-width: 1200px){
+	.container{
+		width: 90%;
+	}
+
+    .star1, .star2{
+        width: 1.2%;
+    }
+    .shape1, .shape2, .shape3{
+        width: 3%;
+    }
+	iframe{
+		width: 600px;
+		height: 350px;
+		margin: auto;
+		display: block;
+	}
+	.gallery-section{
+		padding: 50px 30px;
+	}
+	.contact-section{
+		padding: 40px 0;
+	}
+	footer {
+    padding: 70px 85px;
+    }
+    .submit input {
+    padding: 8px 25px;
+    font-size: 23px;}
+}
+
+@media(max-width: 922px){
+	.container{
+		width: 85%;
+	}
+
+    .star1, .star2{
+        width: 1.5%;
+    }
+    .shape1, .shape2, .shape3{
+        width: 3%;
+    }
+	.gender input, .subject input {
+    height: 17px;
+    width: 17px;
+    }
+
+	.aboutme p{
+		font-size: 18px;
+		padding-top: 12px;
+		padding-right: 40px;
+	}
+	.video-section{
+		padding-top: 50px;
+		padding-bottom: 50px;
+	}
+	.gallery{
+		flex-basis: 33.33%;
+	}
+	.gender label, .subject label{
+		font-size: 17px;
+		margin-right: 7px;
+	}
+	.input input {
+    padding: 8px 20px;
+}
+	.gender strong, .subject strong, .input strong{
+		font-size: 17px;
+	}
+	.subject strong{
+		font-size: 16px;
+	}
+	.submit input {
+    padding: 10px 21px;
+    font-size: 22px;
+    }
+    .logo h1{
+    	font-size: 30px;
+    }
+    header nav a {
+    font-size: 17px;
+    }
+    footer {
+    background-color: #e7485b73;
+    }
+    .contact-section{
+    padding-top: 0.5px;
+    }
+    footer {
+    padding: 60px 65px;
+    }
+    .contact-form h1 {
+    font-size: 40px;
+    font-weight: 790;
+    }
+}
+
+@media(max-width: 768px){
+	.container{
+		width: 90%;
+	}
+	.feature{
+		flex-basis: 50%;
+		max-width: 50%;
+	}
+	nav ul{
+		flex-wrap: wrap;
+	}
+	header nav a{
+		font-size: 16px;
+		padding: 6px 12px;
+	}
+    .f_column h4 {
+        font-size: 20px;
+    }
+   .f_column a {
+        font-size: 14px;
+    }
+   footer {
+        padding: 50px 85px;
+    }
+   .submit input {
+        padding: 8px 8px;
+        font-size: 20px;
+    }
+   .logo h1{
+    	font-size: 28px;
+    }
+    header nav a {
+        font-size: 15px;
+    }
+    .feature div {
+        padding: 30px 20px;
+    }
+    .feature h2 {
+        font-size: 23px;
+    }
+    .feature p {
+        font-size: 15px;
+    }
+    .star1, .star2{
+        width: 1.5%;
+    }
+    .shape1, .shape2, .shape3{
+        width: 3%;
+    }
+}
+
+
+
+@media(max-width: 320px){
+	.container{
+		width: 90%;
+	}	
+	iframe{
+		width: 80%;
+		height: 110px;
+		padding: 10px;
+	}
+	.ytp-large-play-button {
+    width: 50px;
+    height: 25px;
+    margin: auto;
+    margin-left: -26px;
+    margin-top: -16px;
+    }
+	.gallery-section {
+    padding: 17px 30px;
+    }
+    .video-section{
+    padding: 8px 30px;
+
+    }
+	.feature div {
+    padding: 12px 20px;
+    }
+    .feature h2 {
+    font-size: 15px;
+    }
+    .feature{
+		flex-basis: 100%;
+		max-width: 90%;
+		margin: auto;
+	}
+    .feature p {
+    font-size: 10.5px;
+    padding-top: 7px;
+    padding-bottom: 11px;
+    }
+
+   
+
+    .logo{
+	flex-basis: 30%;
+
+    }
+
+    nav{
+	flex-basis: 70%;
+    }
+
+    nav ul{
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	margin: 5px 0px;   
+    }
+
+    header nav a{
+	color: white;
+	text-decoration: none;
+	font-size: 19px;
+    padding: 13px;
+    display: block;
+    }
+
+    header nav a:hover{
+	color: var(--primary);
+    }
+
+    header .logo a{
+	color: white;
+	text-decoration: none;
+	font-family: 'Dancing Script', cursive;
+    }
+    .logo h1 {
+    font-size: 13px;
+    margin: 6px 0;
+    }
+    header nav a {
+    font-size: 6px;
+    padding: 3px;
+    }
+    .aboutme h2 {
+    font-size: 20px;
+    }
+    .aboutme p {
+    font-size: 11px;
+    padding-right: 0px;
+    }
+    .aboutme{
+    	flex-basis: 100%;
+    	max-width: 100%;
+    }
+    .mypicture{
+    	flex-basis: 100%;
+    	max-width: 50%;
+    	margin: auto;
+    }
+    .contact-form h1 {
+    font-size: 25px;
+    }
+    .gender strong, .subject strong, .input strong {
+    font-size: 12px;
+    }
+    .contact-form {
+    max-width: 210px;
+    }
+    .input input {
+    width: 100%;
+    border: 1px solid #bababa;
+    padding: 5px 7px;
+    font-size: 10px;
+    }  
+    .gender label, .subject label {
+    font-size: 13px;
+    }
+    .gender input, .subject input {
+    height: 13px;
+    width: 13px;
+    margin: 0 1px 1px 1px;
+    }
+    .submit input {
+    padding: 4px 6px;
+    font-size: 13px;
+    border: 1px solid
+    }
+    footer {
+    padding: 25px 5px;
+    }
+    .f_column h4 {
+    font-size: 12px;
+    padding-bottom: 5px;
+    }
+    .f_column a {
+    font-size: 8px;
+    padding: 3px 0;
+    }
+
+
+}

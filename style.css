@@ -6,6 +6,11 @@
 	scroll-behavior: smooth;
 	box-sizing: border-box;
 }
+
+img{
+	max-width: 100%;
+	display: block;
+}
 body{
 	font-family: 'Open Sans', sans-serif;
 	padding: 0;
@@ -33,6 +38,7 @@ header{
 .flex{
 	display: flex;
 	align-items: center;
+	flex-wrap: wrap;
 }
 
 .logo{
@@ -232,9 +238,13 @@ header .logo a{
 }
 
 .feature {
-    padding: 18px;
+    padding: 10px;
+    flex-basis: 33.33%;
+}
+
+.feature div{
+    padding: 45px 20px;
     text-align: center;
-    margin: 10px;
     border-radius: 10px;
     color: white;
 }
@@ -280,7 +290,8 @@ header .logo a{
 }
 
 .aboutme{
-	flex-basis: 65%;
+	flex-basis: 60%;
+	max-width: 60%;
 
 }
 
@@ -333,16 +344,16 @@ header .logo a{
 }
 
 .mypicture{
-	flex-basis: 35%;
+	flex-basis: 40%;
 	padding: 15px;
+	max-width: 40%;
 }
 
 .mypicture img {
     box-shadow: 3px 6px 20px 0px #a99f9f;
     object-fit: cover;
     object-position: top;
-    border-radius: 1%;
-    height: 500px;
+    border-radius: 5%;
 }
 
 
@@ -461,14 +472,16 @@ form{}
 	font-size: 20px;
 	margin-bottom: 7px;
 }
-.gender input{
-	height: 23px;
-	width: 23px;
+.gender input {
+    height: 23px;
+    width: 23px;
+    margin: 1px 1px;
 }
-.gender label{
-	font-size: 22px;
-	vertical-align: top;
-	margin-right: 20px;
+.gender label {
+    font-size: 21px;
+    vertical-align: top;
+    margin-right: 20px;
+    /* padding-top: 9px; */
 }
 
 
@@ -480,12 +493,13 @@ form{}
 	font-size: 20px;
 	margin-bottom: 7px;
 }
-.subject input{
-	height: 25px;
-	width: 25px;
+.subject input {
+    height: 23px;
+    width: 23px;
+    margin: 1px 1px;
 }
 .subject label{
-	font-size: 22px;
+	font-size: 21px;
 	vertical-align: top;
 	margin-right: 20px;
 }
