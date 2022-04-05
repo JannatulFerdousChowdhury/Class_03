@@ -1,4 +1,4 @@
-@media(max-width: 1400px){
+@media screen and (max-width: 1400px){
 	.container{
 		width: 90%;
 	}
@@ -14,7 +14,7 @@
     }
 
 }
-@media(max-width: 1200px){
+@media screen and (max-width: 1200px){
 	.container{
 		width: 90%;
 	}
@@ -45,7 +45,7 @@
     font-size: 23px;}
 }
 
-@media(max-width: 922px){
+@media screen and (max-width: 922px){
 	.container{
 		width: 85%;
 	}
@@ -109,15 +109,56 @@
     font-size: 40px;
     font-weight: 790;
     }
+    header nav a {
+    font-size: 15px;
+    }
+    .f_column a {
+    font-size: 17px;
+    }
+    .feature{
+		flex-basis: 50%;
+		max-width: 50%;
+	}
 }
 
-@media screen and (max-width: 921px){
+
+
+@media screen and (max-width: 892px){
+	.f_column h4 {
+    font-size: 22px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 832px){
+	header nav a {
+    font-size: 15px;
+    }
+    .feature div {
+    padding: 25px 20px;
+   }
+   .feature h2 {
+    font-size: 23px;
+    }
+    .feature p {
+    font-size: 15px;
+    }
+    .feature {
+    flex-basis: 50%;
+    max-width: 48%;
+    padding: 18px;
+    }
+}
+
+@media screen and (max-width: 768px){
 	.container{
 		width: 90%;
 	}
 	.feature{
-		flex-basis: 50%;
-		max-width: 50%;
+		flex-basis: 100%;
+		max-width: 100%;
 	}
 	nav ul{
 		flex-wrap: wrap;
@@ -146,7 +187,7 @@
         font-size: 15px;
     }
     .feature div {
-        padding: 30px 20px;
+    padding: 22px 39px;
     }
     .feature h2 {
         font-size: 23px;
@@ -160,8 +201,114 @@
     .shape1, .shape2, .shape3{
         width: 3%;
     }
+    iframe {
+    width: 76%;
+    height: 200px;
+    }
+    .video-section .container {
+    width: 80%;
+    }
+    .contact-form {
+    max-width: 497px
+    }
+    .aboutme{
+    	flex-basis: 50%;
+    	max-width: 50%;
+    }
+    .mypicture{
+    	flex-basis: 50%;
+    	max-width: 50%;
+    }
+    .feature h2 {
+    font-size: 21px;
+    }
+    .feature p {
+    font-size: 14px;
+    }
+    .feature div {
+    padding: 13px 52px;
+    }
+    .aboutme p {
+    font-size: 16px;
+    padding-right: 49px;
+    }
+    .aboutme h2 {
+    font-size: 38px;
+    }
 }
-@media screen and (max-width: 767px){
+
+
+
+@media screen and (max-width: 710px){
+	header nav a {
+    font-size: 13px;
+
+    }
+    .logo h1 {
+    font-size: 27px;
+    }
+    .aboutme{
+    	flex-basis: 100%;
+    	max-width: 100%;
+    	text-align: center;
+    }
+    .mypicture{
+    	flex-basis: 100%;
+    	max-width: 60%;
+    	margin: auto;
+    }
+
+}
+
+
+@media screen and (max-width: 680px){
+
+	.f_column a {
+    font-size: 12px;
+    }
+    .f_column h4 {
+    font-size: 17px;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 650px){
+	.container{
+		width: 90%;
+	}
+	.f_column a {
+    font-size: 12px;
+    }
+    .f_column h4 {
+    font-size: 17px;
+    }
+    footer {
+    padding: 30px 65px;
+   }
+   .contact-form {
+    max-width: 407px;
+    margin: auto;
+   }
+   .contact-form h1 {
+    font-size: 35px;
+    font-weight: 790;
+    }
+    .gender strong, .subject strong, .input strong {
+    font-size: 16px;
+    }
+    .input input {
+    padding: 7px 16px;
+    font-size: 16px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 425px){
 	.container{
 		width: 90%;
 	}	
@@ -179,6 +326,9 @@
     }
 	.gallery-section {
     padding: 17px 30px;
+    }
+    .gallery {
+    flex-basis: 50%;
     }
     .video-section{
     padding: 8px 30px;
@@ -250,15 +400,18 @@
     .aboutme p {
     font-size: 11px;
     padding-right: 0px;
+    padding-top: 10px;
     }
     .aboutme{
     	flex-basis: 100%;
     	max-width: 100%;
+    	text-align: center;
     }
     .mypicture{
     	flex-basis: 100%;
-    	max-width: 50%;
+    	max-width: 79%;
     	margin: auto;
+    	text-align: center;
     }
     .contact-form h1 {
     font-size: 25px;
